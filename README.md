@@ -1,5 +1,5 @@
-# swe3643-project
-Semester Project for Software Testing and Quality Assurance
+# swe3643-project - Calculator, Unit Tests, Playwright Tests, and Web Development Project
+## This project is done by Matt Crowley.
 
-This project is done by Matthew Crowley.
-This project consists of creating a calculator application and performing unit tests on it.
+Semester Project for Software Testing and Quality Assurance   
+This project consists of creating a calculator application performing unit tests, utilizing Playwright, and creating a UI.
