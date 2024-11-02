@@ -1,4 +1,4 @@
-# swe3643-project - Calculator, Unit Tests, Playwright Tests, and Web Development Project
+# SWE3643-project - Calculator, Unit Tests, Playwright Tests, and Web Development Project
 ## This project is done by Matt Crowley.
 
 Semester Project for Software Testing and Quality Assurance   
