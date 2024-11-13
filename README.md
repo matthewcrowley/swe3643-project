@@ -70,6 +70,7 @@ package "Calculator Logic Unit Tests via NUnit (C#)" #lightyellow
 CalculatorLogicUnitTests -> CalculatorLogic : References
 
 @enduml
+```
 
 ## Environment
 
