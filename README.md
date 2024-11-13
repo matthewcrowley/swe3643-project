@@ -10,6 +10,19 @@ This repository contains the source code for the Calculator Logic and the Calcul
 - [Reviewing Unit Test Coverage](#reviewing-unit-test-coverage)
 - [Final Video Presentation](#final-video-presentation)
 
+## Team Members
+
+## Architecture
+
+## Environment
+
+## Executing Unit Tests
+
+## Reviewing Unit Test Coverage
+
+## Final Video Presentation
+
+
 Semester Project for Software Testing and Quality Assurance   
          
 This project consists of creating a calculator application performing unit tests, utilizing Playwright, and creating a UI.
