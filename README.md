@@ -2,6 +2,27 @@
 
 This repository contains the source code for the Calculator Logic and the CalculatorLogic Unit Tests. It also contains this README that lists the project team members, explains the system architecture with a professional diagram, explains the enviornment that this project was built in, along with step-by-step instructions on how to execute the project code on your own machine. On top of this, this README also reviews the 100% unit test coverage that my tests cover, and provides a quality YouTube video that further explains this repository and how to execute the unit tests on your machine.
 
+**This project includes:** 
+
+- A calculator module that performs these statistical functions:
+	- The computation of the mean from a list of numeric values.
+	- The computation of the sample and population standard deviations from a list of numeric values.
+	- The computation of the Z-score from a value, mean, and standard deviation.
+	- The computation of the single variable regression formula in the form of y = mx + b where you derive m (slope) and b (intercept) from a list of x,y numeric pairs.
+	- The prediction of the Y-value from a regression formula where you supply the X value, the slope (m) and the intercept (b).
+- A calculator unit tests module that achieves 100% coverage while testing:
+	- Failing states.
+	- Succeeding states.
+	- Other various tests to achieve 100% coverage.
+	- A total of 24 unit tests.
+- A README.md file that explains and contains the following:
+	- The person behind this project.
+	- A professional diagram explaining the system architecture.
+	- The environment required for this project.
+	- Step-by-step instructions on how to execute these unit tests on your own machine.
+	- Images demonstrating successfully ran unit tests along with their coverage of 100%.
+	- A YouTube video fully explaining this repository and the steps needed to clone this project and run the tests.
+
 ## Table of Contents
 
 - [Team Members](#team-members)
@@ -19,9 +40,11 @@ This project was completed by one person:
 The system is designed in a way where the two modules are loosely coupled. There are two different projects in this Rider solution. There is a CalculatorLogic project and a CalculatorLogicUnitTests project. The unit test class does not perform any mathematical operations whatsoever. It simply references the calculator logic module and performs tests on it. The tests achieve 100% coverage whilst testing for various different failing states and succeeding states. This diagram was created in PlantUML, and I will provide the diagram along with the code below.
 
 **System Architecture Diagram**
+
 ![Project System Architecture](README.assets/CalculatorUnitTestsProjectArchitecture.PNG)
 
 **PlantUML Code**
+
 ```
 @startuml
 allowmixing
@@ -81,8 +104,3 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 ## Reviewing Unit Test Coverage
 
 ## Final Video Presentation
-
-
-Semester Project for Software Testing and Quality Assurance   
-         
-This project consists of creating a calculator application performing unit tests, utilizing Playwright, and creating a UI.
