@@ -18,8 +18,10 @@ This project was completed by one person:
 ## Architecture
 The system is designed in a way where the two modules are loosely coupled. There are two different projects in this Rider solution. There is a CalculatorLogic project and a CalculatorLogicUnitTests project. The unit test class does not perform any mathematical operations whatsoever. It simply references the calculator logic module and performs tests on it. The tests achieve 100% coverage whilst testing for various different failing states and succeeding states. This diagram was created in PlantUML, and I will provide the diagram along with the code below.
 
+**System Architecture Diagram**
 ![Project System Architecture](README.assets/CalculatorUnitTestsProjectArchitecture.PNG)
 
+**PlantUML Code**
 ```
 @startuml
 allowmixing
