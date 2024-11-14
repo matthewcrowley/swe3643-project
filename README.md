@@ -34,14 +34,15 @@ This repository contains the source code for the Calculator Logic and the Calcul
 
 ## Team Members
 This project was completed by one person:
-- Matt Crowley (Fun Fact: Loves animals!)
+- Matt Crowley 
+	- Fun Fact: Loves animals! Would not hurt a fly!
 
 ## Architecture
 The system is designed in a way where the two modules are loosely coupled. There are two different projects in this Rider solution. There is a CalculatorLogic project and a CalculatorLogicUnitTests project. The unit test class does not perform any mathematical operations whatsoever. It simply references the calculator logic module and performs tests on it. The tests achieve 100% coverage whilst testing for various different failing states and succeeding states. This diagram was created in PlantUML, and I will provide the diagram along with the code below.
 
 **System Architecture Diagram**
 
-![Project System Architecture](README.assets/CalculatorUnitTestsProjectArchitecture.PNG)
+![Project System Architecture](README.assets\CalculatorUnitTestsProjectArchitecture.PNG)
 
 **PlantUML Code**
 
@@ -102,5 +103,14 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 ## Executing Unit Tests
 
 ## Reviewing Unit Test Coverage
+In this project, I wrote a total of **24** unit tests to test the statistical functions in my Calculator Logic module. Once the tests are run through either the command line or the Rider C# IDE, they all succeed and achieve 100% test coverage of all the statements and their paths. The first two screen captures display all of the unit tests succeeding, whilst the following two screen captures show the 100% coverage in Test Coverage feature in Rider.
+**Unit Test Successes**
+![UnitTestsSuccess1](README.assets\UnitTestsSuccess1.PNG)
+![UnitTestsSuccess2](README.assets\UnitTestsSuccess2.PNG)
+
+**100% Unit Test Coverage**
+![TotalTestCoverage1](README.assets\UnitTestsTotalCoverage1.PNG)
+![TotalTestCoverage2](README.assets\UnitTestsTotalCoverage2.PNG)
 
 ## Final Video Presentation
+This final video presentation on YouTube is of me walking you through this repository along with executing my unit tests from the command line. Along with this, I also hop into my Rider IDE to show off my Calculator Logic and my Calculator Logic Unit Tests and their **100%** coverage! Check it out!
