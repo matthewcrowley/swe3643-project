@@ -103,7 +103,7 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 ## Executing Unit Tests
 
 ## Reviewing Unit Test Coverage
-In this project, I wrote a total of **24** unit tests to test the statistical functions in my Calculator Logic module. Once the tests are run through either the command line or the Rider C# IDE, they all succeed and achieve 100% test coverage of all the statements and their paths. The first two screen captures display all of the unit tests succeeding, whilst the following two screen captures show the 100% coverage in Test Coverage feature in Rider.
+In this project, I wrote a total of **24** unit tests to test the statistical functions in my Calculator Logic module. Once the tests are run through either the command line or the Rider C# IDE, they all succeed and achieve 100% test coverage of all the statements and their paths. The first two screen captures display all of the unit tests succeeding, whilst the following two screen captures show the 100% coverage in Test Coverage feature in Rider. <br>
 **Unit Test Successes**
 ![UnitTestsSuccess1](README.assets/UnitTestsSuccess1.PNG)
 ![UnitTestsSuccess2](README.assets/UnitTestsSuccess2.PNG)
