@@ -107,7 +107,7 @@ I completed this project with the JetBrains IDE Rider. I *highly* recommend you 
 - [Click here to install Git! (default settings are acceptable for most users)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Click here to download .NET 8!](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-<br>**2. Install Rider to your machine.**
+**2. Install Rider to your machine.**
 - [If you are a student, you should sign up for the wonderful student licence JetBrains offers!](https://www.jetbrains.com/community/education/#students)
 - [Install Rider Here!](https://www.jetbrains.com/rider/download/#section=windows)
 
