@@ -103,10 +103,10 @@ I completed this project with the JetBrains IDE Rider. I *highly* recommend you 
 <br><br>I will walk you through on how to get started with Rider, because that is what I used to complete this project.
 <br><br>**Please Note:** This environment *should* be cross-platform. It should work on Windows 10+, Mac OSx Ventura+, and Linux environments. However, I have only tested on one platform (Windows 10).
 <br><br>**Also Note:** In order to clone this repository and execute the unit tests from your command line / terminal, you must have downloaded Git along with .NET 8 Target Framework, which this project uses.
-
 <br><br>**1. Install Git and .NET 8 (if not done already).**
 - [Click here to install Git! (default settings are acceptable for most users)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Click here to download .NET 8!](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+
 <br><br>**2. Install Rider to your machine.**
 - [If you are a student, you should sign up for the wonderful student licence JetBrains offers!](https://www.jetbrains.com/community/education/#students)
 - [Install Rider Here!](https://www.jetbrains.com/rider/download/#section=windows)
