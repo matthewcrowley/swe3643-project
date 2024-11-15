@@ -131,7 +131,8 @@ The name of the unit test directory is "CalculatorLogicUnitTests", so the comman
 ![NavigateToUnitTests](README.assets/NavigateToUnitTests.PNG)
 9.	Execute the Unit Tests.
 Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
-![CommandLineUnitTests](README.assets/CommandLineUnitTests.PNG)
+![CommandLineUnitTestsSuccess](README.assets/CommandLineUnitTestsSuccess.PNG)
+You have now successfully executed the unit tests from the command line!
 
 **Executing the Unit Tests from Rider IDE (OPTIONAL)**
 
