@@ -126,7 +126,7 @@ I completed this project with the JetBrains IDE Rider. I *highly* recommend you 
 If you see your command line / terminal, you are now ready to execute your project and unit tests from your machine. You can follow my directions on how I ran this project's code below!
 
 ## Executing Unit Tests
-I will now walk you through executing the unit tests of this project through the command line. I understand that you may not have Rider IDE installed on your machine, so here is a way that you can execute the unit tests from your command line. This will be a step by-step-process with numbered instructions. <br><br>**Please note** These command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
+I will now walk you through executing the unit tests of this project through the command line. I understand that you may not have Rider IDE installed on your machine, so here is a way that you can execute the unit tests from your command line. This will be a step by-step-process with numbered instructions. <br><br>**Please note:** These command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
 **Also Note:** You must correctly configure your environment to run these commands in the command line / terminal. Please visit the [Environment](#environment) section if you are having any difficulties!<br><br>
 **Executing the Unit Tests from the Command Line:**
 <br>This is the step-by-step process to cloning this repository to your machine and executing the unit tests from your command line. When given a command for you to input into your command line, feel free to copy and paste!
