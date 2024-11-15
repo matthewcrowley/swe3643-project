@@ -1,6 +1,6 @@
 # KSU SWE 3643 Software Testing and Quality Assurance Semester Project: Web-Based Calculator Unit Tests
 
-This repository contains the source code for the Calculator Logic and the CalculatorLogic Unit Tests. It also contains this README that lists the project team members, explains the system architecture with a professional diagram, explains the enviornment that this project was built in, along with step-by-step instructions on how to execute the project code on your own machine. On top of this, this README also reviews the 100% unit test coverage that my tests cover, and provides a quality YouTube video that further explains this repository and how to execute the unit tests on your machine.
+This repository contains the source code for the Calculator Logic and the CalculatorLogic Unit Tests. It also contains this README that lists the project team members, explains the system architecture with a professional diagram, explains the environment that this project was built in, along with step-by-step instructions on how to execute the project code on your own machine. On top of this, this README also reviews the 100% unit test coverage that my tests cover, and provides a quality YouTube video that further explains this repository and how to execute the unit tests on your machine. This project was done in C# with proper naming conventions and coding standards.
 
 **This project includes:** 
 
@@ -25,15 +25,12 @@ This repository contains the source code for the Calculator Logic and the Calcul
 
 ## Table of Contents
 
-- [Environment](#environment)
 - [Team Members](#team-members)
 - [Architecture](#architecture)
+- [Environment](#environment)
 - [Executing Unit Tests](#executing-unit-tests)
 - [Reviewing Unit Test Coverage](#reviewing-unit-test-coverage)
 - [Final Video Presentation](#final-video-presentation)
-
-## Environment
-
 
 ## Team Members
 This project was completed by one person:
@@ -41,7 +38,7 @@ This project was completed by one person:
 	- Fun Fact: Loves animals! Would not hurt a fly!
 
 ## Architecture
-The system is designed in a way where the two modules are loosely coupled. There are two different projects in this Rider solution. There is a CalculatorLogic project and a CalculatorLogicUnitTests project. The unit test class does not perform any mathematical operations whatsoever. It simply references the calculator logic module and performs tests on it. The tests achieve 100% coverage whilst testing for various different failing states and succeeding states. This diagram was created in PlantUML, and I will provide the diagram along with the code below.
+The system is designed in a way where the two modules are loosely coupled. There are two different projects in this Rider solution. There is a CalculatorLogic project and a CalculatorLogicUnitTests project. The unit test class does not perform any mathematical operations whatsoever. It simply references the calculator logic module and performs tests on it. The tests achieve **100%** coverage whilst testing for various different failing states and succeeding states. This diagram was created in PlantUML, and I will provide the diagram along with the code below.
 
 **System Architecture Diagram**
 
@@ -101,6 +98,17 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 @enduml
 ```
 
+## Environment
+I completed this project with the JetBrains IDE Rider. I highly recommend you download Rider to write your own unit tests. All JetBrains IDEs are cross-platform, so you can install them on Windows, MacOS, or Linux operating systems. If you wish to use Java, use Intellij Ultimate Edition. If you wish to use Python, use Pycharm. If you wish to use C# (*which I recommend*), use Rider. 
+I will walk you through on how to get started with Rider, because that is what I used to complete this project.
+**Please Note:** This environment should be cross-platform. It should work on Windows 10+, Mac OSx Ventura+, and Linux environments. However, I have only tested on one platform (Windows 10).
+	**1.Install Rider to your machine.**
+- [If you are a student, you should sign up for the wonderful student licence JetBrains offers!](https://www.jetbrains.com/community/education/#students)
+- [Install Rider Here!](https://www.jetbrains.com/rider/download/#section=windows)
+
+	**2. Ensure Rider is operational.**
+Once Rider is installed on your machine, launch it and start a console application. In the application, write a quick "Hello World" program and ensure it prints to the console once you run it. If successful, your environment is operational and you can start writing your own unit tests.
+
 ## Executing Unit Tests
 I will now walk you through executing the unit tests of this project through the command line. I understand that you may not have Rider IDE installed on your machine, so here is a way that you can execute the unit tests from your command line. This will be a step by-step-process with numbered instructions. <br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
 **Executing the Unit Tests from the Command Line:**
@@ -150,7 +158,7 @@ Build succeeded in 3.1s
 ```
 
 ## Reviewing Unit Test Coverage
-In this project, I wrote a total of **24** unit tests to test the statistical functions in my Calculator Logic module. Once the tests are run through either the command line or the Rider C# IDE, they all succeed and achieve 100% test coverage of all the statements and their paths. The first two screen captures display all of the unit tests succeeding, whilst the following two screen captures show the 100% coverage in Test Coverage feature in Rider. <br>
+In this project, I wrote a total of **24** unit tests to test the statistical functions in my Calculator Logic module. Once the tests are run through either the command line or the Rider C# IDE, they all succeed and achieve 100% test coverage of all the statements and their paths. The first two screen captures display all of the unit tests succeeding, whilst the following two screen captures show the **100%** coverage in Test Coverage feature in Rider. <br>
 <br>**Unit Test Successes**
 ![UnitTestsSuccess1](README.assets/UnitTestsSuccess1.PNG)
 ![UnitTestsSuccess2](README.assets/UnitTestsSuccess2.PNG)
