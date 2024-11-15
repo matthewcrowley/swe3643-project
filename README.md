@@ -38,7 +38,7 @@ This project was completed by one person:
 	- Fun Fact: Loves animals! Would not hurt a fly!
 
 ## Architecture
-The system is designed in a way where the two modules are loosely coupled. There are two different projects in this Rider solution. There is a CalculatorLogic project and a CalculatorLogicUnitTests project. The unit test class does not perform any mathematical operations whatsoever. It simply references the calculator logic module and performs tests on it. The tests achieve **100%** coverage whilst testing for various different failing states and succeeding states. This diagram was created in PlantUML, and I will provide the diagram along with the code below.
+The system is designed in a way where the two modules are loosely coupled. With the modules being loosely coupled, I achieve the single responsibility principle. There are two different projects in this Rider solution. There is a CalculatorLogic project and a CalculatorLogicUnitTests project. The unit test class does not perform any mathematical operations whatsoever. It simply references the calculator logic module and performs tests on it. The tests achieve **100%** coverage whilst testing for various different failing states and succeeding states. This diagram was created in PlantUML, and I will provide the diagram along with the code below.
 
 **System Architecture Diagram**
 
@@ -99,9 +99,9 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 ```
 
 ## Environment
-I completed this project with the JetBrains IDE Rider. I highly recommend you download Rider to write your own unit tests. All JetBrains IDEs are cross-platform, so you can install them on Windows, MacOS, or Linux operating systems. If you wish to use Java, use Intellij Ultimate Edition. If you wish to use Python, use Pycharm. If you wish to use C# (*which I recommend*), use Rider. 
+I completed this project with the JetBrains IDE Rider. I *highly* recommend you download Rider to write your own unit tests. All JetBrains IDEs are cross-platform, so you can install them on Windows, MacOS, or Linux operating systems. If you wish to use Java, use Intellij Ultimate Edition. If you wish to use Python, use Pycharm. If you wish to use C# (*which I recommend*), use Rider. 
 <br><br>I will walk you through on how to get started with Rider, because that is what I used to complete this project.
-<br><br>**Please Note:** This environment should be cross-platform. It should work on Windows 10+, Mac OSx Ventura+, and Linux environments. However, I have only tested on one platform (Windows 10).
+<br><br>**Please Note:** This environment *should* be cross-platform. It should work on Windows 10+, Mac OSx Ventura+, and Linux environments. However, I have only tested on one platform (Windows 10).
 <br><br>**1. Install Rider to your machine.**
 - [If you are a student, you should sign up for the wonderful student licence JetBrains offers!](https://www.jetbrains.com/community/education/#students)
 - [Install Rider Here!](https://www.jetbrains.com/rider/download/#section=windows)
@@ -109,9 +109,9 @@ I completed this project with the JetBrains IDE Rider. I highly recommend you do
 **2. Ensure Rider is operational.**
 <br><br>Once Rider is installed on your machine, launch it and start a console application. In the application, write a quick "Hello World" program and ensure it prints to the console once you run it. If successful, your environment is operational and you can start writing your own unit tests.
 
-**3. Configure your projects.**
+**3. Configure your projects for nUnit unit testing.**
 <br><br>You want to configure your project to have your logic and tests seperate. You need your unit tests module to reference your logic module in Rider.
-<br>Once you create a console project you wish to test, check out these links on how to get started with unit testing! They provide insight on how to write your unit tests and execute them directly in your IDE.
+<br><br>Once you create a console project you wish to test with a unit test project using nUnit, check out these links on how to get started with unit testing! They provide insight on how to write your unit tests and execute them directly in your IDE.
 - [Get started with unit testing!](https://www.jetbrains.com/help/rider/Getting_Started_with_Unit_Testing.html)
 - [Click here for insights on how to reference projects!](https://www.jetbrains.com/help/rider/Extending_Your_Solution.html)
 
@@ -151,7 +151,7 @@ The name of the unit test directory is "CalculatorLogicUnitTests", so the comman
 <br>**9.	Execute the Unit Tests.**<br><br>
 Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
 ![CommandLineUnitTestsSuccess](README.assets/CommandLineUnitTestsSuccess.PNG)
-You have now successfully executed the unit tests from the command line! <br><br>
+<br>You have now successfully executed the unit tests from the command line! <br><br>
 This *should* be similar to the output that you see:
 ```
 dotnet test
