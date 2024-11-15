@@ -102,21 +102,21 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 ```
 
 ## Executing Unit Tests
-I will now walk you through executing the unit tests of this project through the command line. This will be a step by-step-process with numbered instructions. After I show you how to execute the tests from the command line, I will then provide an optional section showing you how to execute the tests in the Rider IDE (*if you have it on your machine*), but it is not needed to execute the tests because you can ignore that section and execute the unit tests from the command prompt.<br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br>
+I will now walk you through executing the unit tests of this project through the command line. This will be a step by-step-process with numbered instructions. After I show you how to execute the tests from the command line, I will then provide an optional section showing you how to execute the tests in the Rider IDE (*if you have it on your machine*), but it is not needed to execute the tests because you can ignore that section and execute the unit tests from the command prompt.<br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
 **Executing the Unit Tests from the Command Line**
 This is the step-by-step process to cloning this repository to your machine and executing the unit tests from your command line. When given a command for you to input into your command line, feel free to copy and paste!
 1.	Clone the repository to your machine.
 To clone the repository to your machine, press the green "Code" button on the top right of the repository, and then copy the link to your clipboard.
-![RepoCloneImage](README.assets/RepoCloneImage.PNG)
+![RepoCloneImage](README.assets/RepoCloneImage.PNG) <br>
 2.	Open your command line / terminal.
 On Windows, open the "Start" menu and type `cmd` and click "Command Prompt". If you are on Mac, click the Launchpad icon in the Dock, type `Terminal` and click "Terminal".
-![CommandLineImage](README.assets/CommandLineImage.PNG)
+![CommandLineImage](README.assets/CommandLineImage.PNG) <br>
 3.	Direct to a chosen directory.
 You want to choose where you want to place your cloned repository. To direct to any given directory, use the `cd` command, followed by the name of the directory. You can choose any directory for this, but I wanted to place the cloned repository in my Downloads folder, so my command was `cd Downloads`.
-![CommandLineDownloadsImage](README.assets/CommandLineDownloadsImage.PNG)
+![CommandLineDownloadsImage](README.assets/CommandLineDownloadsImage.PNG) <br>
 4.	Clone the repository.
 Once you have directed to your chosen directory, use the `git clone` command followed by the URL of the repository. For example, my command for cloning this repository to my machine was `git clone https://github.com/matthewcrowley/swe3643-project.git`.
-![CommandLineRepoCloned](README.assets/CommandLineRepoCloned.PNG)
+![CommandLineRepoCloned](README.assets/CommandLineRepoCloned.PNG) <br>
 5.	Navigate to the newly cloned repository.
 The name of this repository is "swe3643-project", so the command to navigate to the repository is `cd swe3643-project`.
 ![NavigateToProject](README.assets/NavigateToProject.PNG)
