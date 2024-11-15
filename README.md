@@ -118,7 +118,7 @@ You want to choose where you want to place your cloned repository. To direct to 
 Once you have directed to your chosen directory, use the `git clone` command followed by the URL of the repository. For example, my command for cloning this repository to my machine was `git clone https://github.com/matthewcrowley/swe3643-project.git`.
 ![CommandLineRepoCloned](README.assets/CommandLineRepoCloned.PNG) <br>
 <br>**5.	Navigate to the newly cloned repository.**<br><br>
-The name of this repository is "swe3643-project", so the command to navigate to the repository is `cd swe3643-project`.
+The name of this repository is "swe3643-project", so the command to navigate to the repository is `cd swe3643-project`.<br>
 ![NavigateToProject](README.assets/NavigateToProject.PNG) <br>
 <br>**6.	Navigate to the source code directory.**<br><br>
 The name of the directory is "src", so the command is `cd src`.
