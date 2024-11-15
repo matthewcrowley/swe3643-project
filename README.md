@@ -13,8 +13,8 @@ This repository contains the source code for the Calculator Logic and the Calcul
 - A calculator unit tests module that achieves 100% coverage while testing:
 	- Failing states.
 	- Succeeding states.
-	- Other various tests to achieve 100% coverage.
-	- A total of 24 unit tests.
+	- Other various tests to achieve **100%** coverage.
+	- A total of **24** unit tests.
 - A README.md file that explains and contains the following:
 	- The person behind this project.
 	- A professional diagram explaining the system architecture.
@@ -25,12 +25,15 @@ This repository contains the source code for the Calculator Logic and the Calcul
 
 ## Table of Contents
 
+- [Environment](#environment)
 - [Team Members](#team-members)
 - [Architecture](#architecture)
-- [Environment](#environment)
 - [Executing Unit Tests](#executing-unit-tests)
 - [Reviewing Unit Test Coverage](#reviewing-unit-test-coverage)
 - [Final Video Presentation](#final-video-presentation)
+
+## Environment
+
 
 ## Team Members
 This project was completed by one person:
@@ -98,9 +101,39 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 @enduml
 ```
 
-## Environment
-
 ## Executing Unit Tests
+I will now walk you through executing the unit tests of this project through the command line. This will be a step by-step-process with numbered instructions. After I show you how to execute the tests from the command line, I will then provide an optional section showing you how to execute the tests in the Rider IDE (*if you have it on your machine*), but it is not needed to execute the tests because you can ignore that section and execute the unit tests from the command prompt.<br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br>
+**Executing the Unit Tests from the Command Line**
+This is the step-by-step process to cloning this repository to your machine and executing the unit tests from your command line. When given a command for you to input into your command line, feel free to copy and paste!
+1.	Clone the repository to your machine.
+To clone the repository to your machine, press the green "Code" button on the top right of the repository, and then copy the link to your clipboard.
+![RepoCloneImage](README.assets/RepoCloneImage.PNG)
+2.	Open your command line / terminal.
+On Windows, open the "Start" menu and type `cmd` and click "Command Prompt". If you are on Mac, click the Launchpad icon in the Dock, type `Terminal` and click "Terminal".
+![CommandLineImage](README.assets/CommandLineImage.PNG)
+3.	Direct to a chosen directory.
+You want to choose where you want to place your cloned repository. To direct to any given directory, use the `cd` command, followed by the name of the directory. You can choose any directory for this, but I wanted to place the cloned repository in my Downloads folder, so my command was `cd Downloads`.
+![CommandLineDownloadsImage](README.assets/CommandLineDownloadsImage.PNG)
+4.	Clone the repository.
+Once you have directed to your chosen directory, use the `git clone` command followed by the URL of the repository. For example, my command for cloning this repository to my machine was `git clone https://github.com/matthewcrowley/swe3643-project.git`.
+![CommandLineRepoCloned](README.assets/CommandLineRepoCloned.PNG)
+5.	Navigate to the newly cloned repository.
+The name of this repository is "swe3643-project", so the command to navigate to the repository is `cd swe3643-project`.
+![NavigateToProject](README.assets/NavigateToProject.PNG)
+6.	Navigate to the source code directory.
+The name of the directory is "src", so the command is `cd src`.
+![NavigateToSource](README.assets/NavigateToSource.PNG)
+7.	Navigate to the Calculator directory.
+The name of this directory is simply "Calculator", so the command is `cd Calculator`.
+![NavigateToCalculator](README.assets/NavigateToCalculator.PNG)
+8.	Navigate to the Unit Tests directory.
+The name of the unit test directory is "CalculatorLogicUnitTests", so the command is `cd CalculatorLogicUnitTests`.
+![NavigateToUnitTests](README.assets/NavigateToUnitTests.PNG)
+9.	Execute the Unit Tests.
+Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
+![CommandLineUnitTests](README.assets/CommandLineUnitTests.PNG)
+
+**Executing the Unit Tests from Rider IDE (OPTIONAL)**
 
 ## Reviewing Unit Test Coverage
 In this project, I wrote a total of **24** unit tests to test the statistical functions in my Calculator Logic module. Once the tests are run through either the command line or the Rider C# IDE, they all succeed and achieve 100% test coverage of all the statements and their paths. The first two screen captures display all of the unit tests succeeding, whilst the following two screen captures show the 100% coverage in Test Coverage feature in Rider. <br>
