@@ -26,7 +26,7 @@ public class CalculatorLogicUnitTests {
         double sampleStandardDeviation = CalculatorLogic.ComputeTheSampleStandardDeviation(listOfSamplesForSampleStandardDeviation);
 
         // ASSERT
-        Assert.AreEqual(1.5811388300841898, sampleStandardDeviation);
+        Assert.That(sampleStandardDeviation, Is.EqualTo(1.5811388300841898));
     }
 
     // preq-UNIT-TEST-2
@@ -68,7 +68,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<ArgumentException>(() => CalculatorLogic.ComputeTheSampleStandardDeviation(listOfSamplesForSampleStandardDeviation));
         
         // ASSERT
-        Assert.AreEqual("The provided list contains invalid numbers.", errorMessage.Message);
+        Throws.ArgumentException.With.Message.EqualTo("The provided list contains invalid numbers.");
     }
     
     // preq-UNIT-TEST-2
@@ -82,7 +82,7 @@ public class CalculatorLogicUnitTests {
         double sampleStandardDeviation = CalculatorLogic.ComputeTheSampleStandardDeviation(listOfSamplesForSampleStandardDeviation);
 
         // ASSERT
-        Assert.AreEqual(0.0, sampleStandardDeviation);
+        Assert.That(sampleStandardDeviation, Is.EqualTo(0.0));
     }
 
     // This is the beginning of the unit tests for the ComputeThePopulationStandardDeviation() method.
@@ -98,7 +98,7 @@ public class CalculatorLogicUnitTests {
         double populationStandardDeviation = CalculatorLogic.ComputeThePopulationStandardDeviation(listOfSamplesForPopulationStandardDeviation);
         
         // ASSERT
-        Assert.AreEqual(1.4142135623730951, populationStandardDeviation);
+        Assert.That(populationStandardDeviation, Is.EqualTo(1.4142135623730951));
     }
     
     // preq-UNIT-TEST-3
@@ -140,7 +140,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<ArgumentException>(() => CalculatorLogic.ComputeThePopulationStandardDeviation(listOfSamplesForPopulationStandardDeviation));
         
         // ASSERT
-        Assert.AreEqual("The provided list contains invalid numbers.", errorMessage.Message);
+        Throws.ArgumentException.With.Message.EqualTo("The provided list contains invalid numbers.");
     }
     
     // preq-UNIT-TEST-3
@@ -154,7 +154,7 @@ public class CalculatorLogicUnitTests {
         double populationStandardDeviation = CalculatorLogic.ComputeThePopulationStandardDeviation(listOfSamplesForPopulationStandardDeviation);
 
         // ASSERT
-        Assert.AreEqual(0.0, populationStandardDeviation);
+        Assert.That(populationStandardDeviation, Is.EqualTo(0.0));
     }
     
     // This is the beginning of the unit tests for the ComputeTheMean() method.
@@ -170,7 +170,7 @@ public class CalculatorLogicUnitTests {
         double mean = CalculatorLogic.ComputeTheMean(valuesForTheMean);
         
         // ASSERT
-        Assert.AreEqual(7, mean);
+        Assert.That(mean, Is.EqualTo(7));
     }
     
     // preq-UNIT-TEST-4
@@ -198,7 +198,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<ArgumentException>(() => CalculatorLogic.ComputeTheMean(valuesForTheMean));
         
         // ASSERT
-        Assert.AreEqual("The provided list contains invalid numbers.", errorMessage.Message);
+        Throws.ArgumentException.With.Message.EqualTo("The provided list contains invalid numbers.");
     }
     
     // This is the beginning of the unit tests for the ComputeTheZScore() method.
@@ -214,7 +214,7 @@ public class CalculatorLogicUnitTests {
         double zScore = CalculatorLogic.ComputeTheZScore(valuesForTheZScore);
 
         // ASSERT
-        Assert.AreEqual(2.846049894151541, zScore);
+        Assert.That(zScore, Is.EqualTo(2.846049894151541));
     }
     
     // preq-UNIT-TEST-5
@@ -228,7 +228,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<ArgumentException>(() => CalculatorLogic.ComputeTheZScore(valuesForTheZScore));
         
         // ASSERT
-        Assert.AreEqual("The mean cannot be zero.", errorMessage.Message);
+        Assert.That(errorMessage.Message, Is.EqualTo("The mean cannot be zero."));
     }
     
     // preq-UNIT-TEST-5
@@ -242,7 +242,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<ArgumentException>(() => CalculatorLogic.ComputeTheZScore(valuesForTheZScore));
         
         // ASSERT
-        Assert.AreEqual("The standard deviation cannot be zero.", errorMessage.Message);
+        Assert.That(errorMessage.Message, Is.EqualTo("The standard deviation cannot be zero."));
     }
     
     // preq-UNIT-TEST-5
@@ -256,7 +256,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<ArgumentException>(() => CalculatorLogic.ComputeTheZScore(valuesForTheZScore));
         
         // ASSERT
-        Assert.AreEqual("The list of provided values must be exactly three.", errorMessage.Message);
+        Assert.That(errorMessage.Message, Is.EqualTo("The list of provided values must be exactly three."));
     }
     
     // This is the beginning of the unit tests for the ComputeTheSingleLinearRegressionEquation() method.
@@ -289,7 +289,7 @@ public class CalculatorLogicUnitTests {
         string singleLinearRegressionEquation = CalculatorLogic.ComputeTheSingleLinearRegressionEquation(dataForSingleLinearRegressionEquation);
 
         // ASSERT
-        Assert.AreEqual("y = 61.272186542107434x + -39.061955918838656", singleLinearRegressionEquation);
+        Assert.That(singleLinearRegressionEquation, Is.EqualTo("y = 61.272186542107434x + -39.061955918838656"));
     }
     
     // preq-UNIT-TEST-6
@@ -303,7 +303,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<ArgumentException>(() => CalculatorLogic.ComputeTheSingleLinearRegressionEquation(dataForSingleLinearRegressionEquation)); 
         
         // ASSERT
-        Assert.AreEqual("The list of provided data cannot be empty.", errorMessage.Message);
+        Assert.That(errorMessage.Message, Is.EqualTo("The list of provided data cannot be empty."));
     }
     
     // preq-UNIT-TEST-6
@@ -322,7 +322,7 @@ public class CalculatorLogicUnitTests {
         string singleLinearRegressionEquation = CalculatorLogic.ComputeTheSingleLinearRegressionEquation(dataForSingleLinearRegressionEquation);
 
         // ASSERT
-        Assert.AreEqual("y = 0x + 0", singleLinearRegressionEquation);
+        Assert.That(singleLinearRegressionEquation, Is.EqualTo("y = 0x + 0"));
     }
     
     // preq-UNIT-TEST-6
@@ -341,7 +341,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<InvalidOperationException>(() => CalculatorLogic.ComputeTheSingleLinearRegressionEquation(dataForSingleLinearRegressionEquation));
         
         // ASSERT
-        Assert.AreEqual("The X values cannot all be the same.", errorMessage.Message);
+        Assert.That(errorMessage.Message, Is.EqualTo("The X values cannot all be the same."));
     }
     
     // preq-UNIT-TEST-6
@@ -360,7 +360,7 @@ public class CalculatorLogicUnitTests {
         var errorMessage = Assert.Throws<InvalidOperationException>(() => CalculatorLogic.ComputeTheSingleLinearRegressionEquation(dataForSingleLinearRegressionEquation));
         
         // ASSERT
-        Assert.AreEqual("The Y values cannot all be the same.", errorMessage.Message);
+        Assert.That(errorMessage.Message, Is.EqualTo("The Y values cannot all be the same."));
     }
     
     // This is the beginning of the unit tests for the PredictTheYValue() method.
@@ -390,6 +390,6 @@ public class CalculatorLogicUnitTests {
         double yValue = CalculatorLogic.PredictTheYValue(valuesForTheYValue);
         
         // ASSERT
-        Assert.AreEqual(54.990850423296244, yValue);
+        Assert.That(yValue, Is.EqualTo(54.990850423296244));
     }
 }
