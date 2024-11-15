@@ -102,7 +102,7 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 ```
 
 ## Executing Unit Tests
-I will now walk you through executing the unit tests of this project through the command line. This will be a step by-step-process with numbered instructions. After I show you how to execute the tests from the command line, I will then provide an optional section showing you how to execute the tests in the Rider IDE (*if you have it on your machine*), but it is not needed to execute the tests because you can ignore that section and execute the unit tests from the command prompt.<br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
+I will now walk you through executing the unit tests of this project through the command line. This will be a step by-step-process with numbered instructions. <br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
 **Executing the Unit Tests from the Command Line**
 This is the step-by-step process to cloning this repository to your machine and executing the unit tests from your command line. When given a command for you to input into your command line, feel free to copy and paste!
 1.	Clone the repository to your machine.
@@ -133,7 +133,7 @@ The name of the unit test directory is "CalculatorLogicUnitTests", so the comman
 Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
 ![CommandLineUnitTestsSuccess](README.assets/CommandLineUnitTestsSuccess.PNG)
 You have now successfully executed the unit tests from the command line! <br><br>
-This should be similar to the output that you see:
+This *should* be similar to the output that you see:
 ```
 dotnet test
 Restore complete (0.5s)
@@ -148,8 +148,6 @@ NUnit Adapter 4.5.0.0: Test execution complete
 Test summary: total: 24, failed: 0, succeeded: 24, skipped: 0, duration: 1.5s
 Build succeeded in 3.1s
 ```
-<br>
-**Executing the Unit Tests from Rider IDE (OPTIONAL)**
 
 ## Reviewing Unit Test Coverage
 In this project, I wrote a total of **24** unit tests to test the statistical functions in my Calculator Logic module. Once the tests are run through either the command line or the Rider C# IDE, they all succeed and achieve 100% test coverage of all the statements and their paths. The first two screen captures display all of the unit tests succeeding, whilst the following two screen captures show the 100% coverage in Test Coverage feature in Rider. <br>
