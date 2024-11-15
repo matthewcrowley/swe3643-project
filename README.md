@@ -134,10 +134,10 @@ I will now walk you through executing the unit tests of this project through the
 To clone the repository to your machine, press the green "Code" button on the top right of the repository, and then copy the link to your clipboard.
 ![RepoCloneImage](README.assets/RepoCloneImage.PNG) <br>
 <br>**2.	Open your command line / terminal.**<br><br>
-On Windows, open the "Start" menu and type `cmd` and click "Command Prompt". If you are on Mac, click the Launchpad icon in the Dock, type `Terminal` and click "Terminal".
+On Windows, open the "Start" menu and type `cmd` and click "Command Prompt". If you are on Mac, click the Launchpad icon in the Dock, type `Terminal` and click "Terminal".<br>
 ![CommandLineImage](README.assets/CommandLineImage.PNG) <br>
 <br>**3.	Direct to a chosen directory.**<br><br>
-You want to choose where you want to place your cloned repository. To direct to any given directory, use the `cd` command, followed by the name of the directory. You can choose any directory for this, but I wanted to place the cloned repository in my Downloads folder, so my command was `cd Downloads`.
+You want to choose where you want to place your cloned repository. To direct to any given directory, use the `cd` command, followed by the name of the directory. You can choose any directory for this, but I wanted to place the cloned repository in my Downloads folder, so my command was `cd Downloads`.<br>
 ![CommandLineDownloadsImage](README.assets/CommandLineDownloadsImage.PNG) <br>
 <br>**4.	Clone the repository.**<br><br>
 Once you have directed to your chosen directory, use the `git clone` command followed by the URL of the repository. For example, my command for cloning this repository to my machine was `git clone https://github.com/matthewcrowley/swe3643-project.git`.
