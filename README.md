@@ -104,7 +104,7 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 ## Executing Unit Tests
 I will now walk you through executing the unit tests of this project through the command line. This will be a step by-step-process with numbered instructions. <br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
 **Executing the Unit Tests from the Command Line**
-This is the step-by-step process to cloning this repository to your machine and executing the unit tests from your command line. When given a command for you to input into your command line, feel free to copy and paste!
+<br>This is the step-by-step process to cloning this repository to your machine and executing the unit tests from your command line. When given a command for you to input into your command line, feel free to copy and paste!
 1.	Clone the repository to your machine.
 To clone the repository to your machine, press the green "Code" button on the top right of the repository, and then copy the link to your clipboard.
 ![RepoCloneImage](README.assets/RepoCloneImage.PNG) <br>
