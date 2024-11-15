@@ -132,7 +132,21 @@ The name of the unit test directory is "CalculatorLogicUnitTests", so the comman
 9.	Execute the Unit Tests.
 Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
 ![CommandLineUnitTestsSuccess](README.assets/CommandLineUnitTestsSuccess.PNG)
-You have now successfully executed the unit tests from the command line!
+You have now successfully executed the unit tests from the command line! <br>
+This should be similar to the output that you see:
+```
+Restore complete (0.5s)
+  CalculatorLogic succeeded (0.3s) → C:\Users\matth\Downloads\swe3643-project\src\Calculator\CalculatorLogic\bin\Debug\net8.0\CalculatorLogic.dll
+  CalculatorLogicUnitTests succeeded (0.4s) → bin\Debug\net8.0\CalculatorLogicUnitTests.dll
+NUnit Adapter 4.5.0.0: Test execution started
+Running all tests in C:\Users\matth\Downloads\swe3643-project\src\Calculator\CalculatorLogicUnitTests\bin\Debug\net8.0\CalculatorLogicUnitTests.dll
+   NUnit3TestExecutor discovered 24 of 24 NUnit test cases using Current Discovery mode, Non-Explicit run
+NUnit Adapter 4.5.0.0: Test execution complete
+  CalculatorLogicUnitTests test succeeded (1.5s)
+
+Test summary: total: 24, failed: 0, succeeded: 24, skipped: 0, duration: 1.5s
+Build succeeded in 3.1s
+```
 
 **Executing the Unit Tests from Rider IDE (OPTIONAL)**
 
