@@ -100,14 +100,14 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 
 ## Environment
 I completed this project with the JetBrains IDE Rider. I highly recommend you download Rider to write your own unit tests. All JetBrains IDEs are cross-platform, so you can install them on Windows, MacOS, or Linux operating systems. If you wish to use Java, use Intellij Ultimate Edition. If you wish to use Python, use Pycharm. If you wish to use C# (*which I recommend*), use Rider. 
-I will walk you through on how to get started with Rider, because that is what I used to complete this project.
-**Please Note:** This environment should be cross-platform. It should work on Windows 10+, Mac OSx Ventura+, and Linux environments. However, I have only tested on one platform (Windows 10).
-	**1.Install Rider to your machine.**
+<br><br>I will walk you through on how to get started with Rider, because that is what I used to complete this project.
+<br><br>**Please Note:** This environment should be cross-platform. It should work on Windows 10+, Mac OSx Ventura+, and Linux environments. However, I have only tested on one platform (Windows 10).
+<br><br>**1.Install Rider to your machine.**
 - [If you are a student, you should sign up for the wonderful student licence JetBrains offers!](https://www.jetbrains.com/community/education/#students)
 - [Install Rider Here!](https://www.jetbrains.com/rider/download/#section=windows)
 
 	**2. Ensure Rider is operational.**
-Once Rider is installed on your machine, launch it and start a console application. In the application, write a quick "Hello World" program and ensure it prints to the console once you run it. If successful, your environment is operational and you can start writing your own unit tests.
+<br><br>Once Rider is installed on your machine, launch it and start a console application. In the application, write a quick "Hello World" program and ensure it prints to the console once you run it. If successful, your environment is operational and you can start writing your own unit tests.
 
 ## Executing Unit Tests
 I will now walk you through executing the unit tests of this project through the command line. I understand that you may not have Rider IDE installed on your machine, so here is a way that you can execute the unit tests from your command line. This will be a step by-step-process with numbered instructions. <br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
