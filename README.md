@@ -119,22 +119,23 @@ Once you have directed to your chosen directory, use the `git clone` command fol
 ![CommandLineRepoCloned](README.assets/CommandLineRepoCloned.PNG) <br>
 5.	Navigate to the newly cloned repository.
 The name of this repository is "swe3643-project", so the command to navigate to the repository is `cd swe3643-project`.
-![NavigateToProject](README.assets/NavigateToProject.PNG)
+![NavigateToProject](README.assets/NavigateToProject.PNG) <br>
 6.	Navigate to the source code directory.
 The name of the directory is "src", so the command is `cd src`.
-![NavigateToSource](README.assets/NavigateToSource.PNG)
+![NavigateToSource](README.assets/NavigateToSource.PNG) <br>
 7.	Navigate to the Calculator directory.
 The name of this directory is simply "Calculator", so the command is `cd Calculator`.
-![NavigateToCalculator](README.assets/NavigateToCalculator.PNG)
+![NavigateToCalculator](README.assets/NavigateToCalculator.PNG) <br>
 8.	Navigate to the Unit Tests directory.
 The name of the unit test directory is "CalculatorLogicUnitTests", so the command is `cd CalculatorLogicUnitTests`.
-![NavigateToUnitTests](README.assets/NavigateToUnitTests.PNG)
+![NavigateToUnitTests](README.assets/NavigateToUnitTests.PNG) <br>
 9.	Execute the Unit Tests.
 Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
 ![CommandLineUnitTestsSuccess](README.assets/CommandLineUnitTestsSuccess.PNG)
-You have now successfully executed the unit tests from the command line! <br>
+You have now successfully executed the unit tests from the command line! <br><br>
 This should be similar to the output that you see:
 ```
+dotnet test
 Restore complete (0.5s)
   CalculatorLogic succeeded (0.3s) → C:\Users\matth\Downloads\swe3643-project\src\Calculator\CalculatorLogic\bin\Debug\net8.0\CalculatorLogic.dll
   CalculatorLogicUnitTests succeeded (0.4s) → bin\Debug\net8.0\CalculatorLogicUnitTests.dll
@@ -147,7 +148,7 @@ NUnit Adapter 4.5.0.0: Test execution complete
 Test summary: total: 24, failed: 0, succeeded: 24, skipped: 0, duration: 1.5s
 Build succeeded in 3.1s
 ```
-
+<br>
 **Executing the Unit Tests from Rider IDE (OPTIONAL)**
 
 ## Reviewing Unit Test Coverage
