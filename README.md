@@ -109,6 +109,17 @@ I completed this project with the JetBrains IDE Rider. I highly recommend you do
 **2. Ensure Rider is operational.**
 <br><br>Once Rider is installed on your machine, launch it and start a console application. In the application, write a quick "Hello World" program and ensure it prints to the console once you run it. If successful, your environment is operational and you can start writing your own unit tests.
 
+**3. Configure your projects.**
+<br><br>You want to configure your project to have your logic and tests seperate. You need your unit tests module to reference your logic module in Rider.
+<br>Once you create a console project you wish to test, check out these links on how to get started with unit testing! They provide insight on how to write your unit tests and execute them directly in your IDE.
+- [Get started with unit testing!](https://www.jetbrains.com/help/rider/Getting_Started_with_Unit_Testing.html)
+- [Click here for insights on how to reference projects!](https://www.jetbrains.com/help/rider/Extending_Your_Solution.html)
+
+**4. Ensure your command line / terminal is operational.**
+<br><br>I will now show you how to access your command line / terminal to run the unit tests from your machine. On Windows, open the "Start" menu and type `cmd` and click "Command Prompt". If you are on Mac, click the Launchpad icon in the Dock, type `Terminal` and click "Terminal".
+![CommandLineImage](README.assets/CommandLineImage.PNG)<br><br>
+If you see your command line / terminal, you are now ready to execute your project and unit tests from your machine. You can follow my directions on how I ran this project's code below!
+
 ## Executing Unit Tests
 I will now walk you through executing the unit tests of this project through the command line. I understand that you may not have Rider IDE installed on your machine, so here is a way that you can execute the unit tests from your command line. This will be a step by-step-process with numbered instructions. <br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
 **Executing the Unit Tests from the Command Line:**
