@@ -102,31 +102,31 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 I completed this project with the JetBrains IDE Rider. I *highly* recommend you download Rider to write your own unit tests. All JetBrains IDEs are cross-platform, so you can install them on Windows, MacOS, or Linux operating systems. If you wish to use Java, use Intellij Ultimate Edition. If you wish to use Python, use Pycharm. If you wish to use C# (*which I recommend*), use Rider. 
 <br><br>I will walk you through on how to get started with Rider, because that is what I used to complete this project.
 <br><br>**Please Note:** This environment *should* be cross-platform. It should work on Windows 10+, Mac OSx Ventura+, and Linux environments. However, I have only tested on one platform (Windows 10).
-<br><br>**Also Note:** In order to clone this repository and execute the unit tests from your command line / terminal, you must have downloaded git along with .NET 8 Target Framework, which this project uses.
+<br><br>**Also Note:** In order to clone this repository and execute the unit tests from your command line / terminal, you must have downloaded Git along with .NET 8 Target Framework, which this project uses.
 <br><br>**1. Install Git and .NET 8 (if not done already).**
--[Click here to install Git! (default settings are acceptable for most users)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
--[Click here to download .NET 8!](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-<br><br>**1. Install Rider to your machine.**
+- [Click here to install Git! (default settings are acceptable for most users)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Click here to download .NET 8!](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+<br><br>**2. Install Rider to your machine.**
 - [If you are a student, you should sign up for the wonderful student licence JetBrains offers!](https://www.jetbrains.com/community/education/#students)
 - [Install Rider Here!](https://www.jetbrains.com/rider/download/#section=windows)
 
-**2. Ensure Rider is operational.**
+**3. Ensure Rider is operational.**
 <br><br>Once Rider is installed on your machine, launch it and start a console application. In the application, write a quick "Hello World" program and ensure it prints to the console once you run it. If successful, your environment is operational and you can start writing your own unit tests.
 
-**3. Configure your projects for nUnit unit testing.**
+**4. Configure your projects for nUnit unit testing.**
 <br><br>You want to configure your project to have your logic and tests seperate. You need your unit tests module to reference your logic module in Rider.
 <br><br>Once you create a console project you wish to test with a unit test project using nUnit, check out these links on how to get started with unit testing! They provide insight on how to write your unit tests and execute them directly in your IDE.
 - [Get started with unit testing!](https://www.jetbrains.com/help/rider/Getting_Started_with_Unit_Testing.html)
 - [Click here for insights on how to reference projects!](https://www.jetbrains.com/help/rider/Extending_Your_Solution.html)
 
-**4. Ensure your command line / terminal is operational.**
+**5. Ensure your command line / terminal is operational.**
 <br><br>I will now show you how to access your command line / terminal to run the unit tests from your machine. On Windows, open the "Start" menu and type `cmd` and click "Command Prompt". If you are on Mac, click the Launchpad icon in the Dock, type `Terminal` and click "Terminal".
 ![CommandLineImage](README.assets/CommandLineImage.PNG)<br><br>
 If you see your command line / terminal, you are now ready to execute your project and unit tests from your machine. You can follow my directions on how I ran this project's code below!
 
 ## Executing Unit Tests
 I will now walk you through executing the unit tests of this project through the command line. I understand that you may not have Rider IDE installed on your machine, so here is a way that you can execute the unit tests from your command line. This will be a step by-step-process with numbered instructions. <br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
-<br><br>**Please Note:** You must correctly configure your environment to run these commands in the command line / terminal. Please visit the [Environment](#environment) section if you are having any difficulties!<br><br>
+**Please Note:** You must correctly configure your environment to run these commands in the command line / terminal. Please visit the [Environment](#environment) section if you are having any difficulties!<br><br>
 **Executing the Unit Tests from the Command Line:**
 <br>This is the step-by-step process to cloning this repository to your machine and executing the unit tests from your command line. When given a command for you to input into your command line, feel free to copy and paste!
 <br><br>**1.	Clone the repository to your machine.**<br><br>
