@@ -105,31 +105,31 @@ CalculatorLogicUnitTests -> CalculatorLogic : References
 I will now walk you through executing the unit tests of this project through the command line. I understand that you may not have Rider IDE installed on your machine, so here is a way that you can execute the unit tests from your command line. This will be a step by-step-process with numbered instructions. <br><br>Please note that these command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
 **Executing the Unit Tests from the Command Line:**
 <br>This is the step-by-step process to cloning this repository to your machine and executing the unit tests from your command line. When given a command for you to input into your command line, feel free to copy and paste!
-1.	Clone the repository to your machine.<br><br>
+**1.	Clone the repository to your machine.**<br><br>
 To clone the repository to your machine, press the green "Code" button on the top right of the repository, and then copy the link to your clipboard.
 ![RepoCloneImage](README.assets/RepoCloneImage.PNG) <br>
-<br>2.	Open your command line / terminal.<br><br>
+<br>**2.	Open your command line / terminal.**<br><br>
 On Windows, open the "Start" menu and type `cmd` and click "Command Prompt". If you are on Mac, click the Launchpad icon in the Dock, type `Terminal` and click "Terminal".
 ![CommandLineImage](README.assets/CommandLineImage.PNG) <br>
-3.	Direct to a chosen directory.<br>
+<br>**3.	Direct to a chosen directory.**<br><br>
 You want to choose where you want to place your cloned repository. To direct to any given directory, use the `cd` command, followed by the name of the directory. You can choose any directory for this, but I wanted to place the cloned repository in my Downloads folder, so my command was `cd Downloads`.
 ![CommandLineDownloadsImage](README.assets/CommandLineDownloadsImage.PNG) <br>
-4.	Clone the repository.<br>
+<br>**4.	Clone the repository.**<br><br>
 Once you have directed to your chosen directory, use the `git clone` command followed by the URL of the repository. For example, my command for cloning this repository to my machine was `git clone https://github.com/matthewcrowley/swe3643-project.git`.
 ![CommandLineRepoCloned](README.assets/CommandLineRepoCloned.PNG) <br>
-5.	Navigate to the newly cloned repository.<br>
+<br>**5.	Navigate to the newly cloned repository.**<br><br>
 The name of this repository is "swe3643-project", so the command to navigate to the repository is `cd swe3643-project`.
 ![NavigateToProject](README.assets/NavigateToProject.PNG) <br>
-6.	Navigate to the source code directory.<br>
+<br>**6.	Navigate to the source code directory.**<br><br>
 The name of the directory is "src", so the command is `cd src`.
 ![NavigateToSource](README.assets/NavigateToSource.PNG) <br>
-7.	Navigate to the Calculator directory.<br>
+<br>**7.	Navigate to the Calculator directory.**<br><br>
 The name of this directory is simply "Calculator", so the command is `cd Calculator`.
 ![NavigateToCalculator](README.assets/NavigateToCalculator.PNG) <br>
-8.	Navigate to the Unit Tests directory.<br>
+<br>**8.	Navigate to the Unit Tests directory.**<br><br>
 The name of the unit test directory is "CalculatorLogicUnitTests", so the command is `cd CalculatorLogicUnitTests`.
 ![NavigateToUnitTests](README.assets/NavigateToUnitTests.PNG) <br>
-9.	Execute the Unit Tests.<br>
+<br>**9.	Execute the Unit Tests.**<br><br>
 Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
 ![CommandLineUnitTestsSuccess](README.assets/CommandLineUnitTestsSuccess.PNG)
 You have now successfully executed the unit tests from the command line! <br><br>
