@@ -145,19 +145,10 @@ You want to choose where you want to place your cloned repository. To direct to 
 <br>**4.	Clone the repository.**<br><br>
 Once you have directed to your chosen directory, use the `git clone` command followed by the URL of the repository. For example, my command for cloning this repository to my machine was `git clone https://github.com/matthewcrowley/swe3643-project.git`.
 ![CommandLineRepoCloned](README.assets/CommandLineRepoCloned.PNG) <br>
-<br>**5.	Navigate to the newly cloned repository.**<br><br>
-The name of this repository is "swe3643-project", so the command to navigate to the repository is `cd swe3643-project`.<br>
-![NavigateToProject](README.assets/NavigateToProject.PNG) <br>
-<br>**6.	Navigate to the source code directory.**<br><br>
-The name of the directory is "src", so the command is `cd src`.
-![NavigateToSource](README.assets/NavigateToSource.PNG) <br>
-<br>**7.	Navigate to the Calculator directory.**<br><br>
-The name of this directory is simply "Calculator", so the command is `cd Calculator`.
-![NavigateToCalculator](README.assets/NavigateToCalculator.PNG) <br>
-<br>**8.	Navigate to the Unit Tests directory.**<br><br>
-The name of the unit test directory is "CalculatorLogicUnitTests", so the command is `cd CalculatorLogicUnitTests`.
+<br>**5.	Navigate to the unit tests in the newly cloned repository.**<br><br>
+You want to navigate to the repository directory, into the source directory, then the Calculator directory, and then finally the CalculatorLogicUnitTests directory. To do this all at once, we are going to use one command, which is `cd swe3643-project/src/Calculator/CalculatorLogicUnitTests`.<br>
 ![NavigateToUnitTests](README.assets/NavigateToUnitTests.PNG) <br>
-<br>**9.	Execute the Unit Tests.**<br><br>
+<br>**6.	Execute the Unit Tests.**<br><br>
 Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
 ![CommandLineUnitTestsSuccess](README.assets/CommandLineUnitTestsSuccess.PNG)
 <br>You have now successfully executed the unit tests from the command line! <br><br>
