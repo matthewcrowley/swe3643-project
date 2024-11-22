@@ -126,7 +126,7 @@ I completed this project with the JetBrains IDE Rider. I *highly* recommend you 
 **6. Ensure your command line / terminal is operational.**
 <br><br>To ensure that your command line is in correct order to execute the unit tests. You want to use certain commands to check if Git and .NET 8 is correctly installed. In your command line, type `git --version` and check if Git is installed. Then, type `dotnet --list-sdks` and check if .NET 8 is correctly installed. Your results should look similar to this:
 ![CommandLineIsCorrect](README.assets/CommandLineIsCorrect.PNG)
-If you see your command line / terminal, you are now ready to execute your project and unit tests from your machine. You can follow my directions on how I ran this project's code below!
+<br>If you see your command line / terminal, you are now ready to execute your project and unit tests from your machine. You can follow my directions on how I ran this project's code below!
 
 ## Executing Unit Tests
 I will now walk you through executing the unit tests of this project through the command line. I understand that you may not have Rider IDE installed on your machine, so here is a way that you can execute the unit tests from your command line. This will be a step by-step-process with numbered instructions. <br><br>**Please note:** These command line instructions are tailored to those who have little to no experience in the command line / terminal.<br><br>
