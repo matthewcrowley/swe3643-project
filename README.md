@@ -120,9 +120,12 @@ I completed this project with the JetBrains IDE Rider. I *highly* recommend you 
 - [Get started with unit testing!](https://www.jetbrains.com/help/rider/Getting_Started_with_Unit_Testing.html)
 - [Click here for insights on how to reference projects!](https://www.jetbrains.com/help/rider/Extending_Your_Solution.html)
 
-**5. Ensure your command line / terminal is operational.**
+**5. Access your command line / terminal.**
 <br><br>I will now show you how to access your command line / terminal to run the unit tests from your machine. On Windows, open the "Start" menu and type `cmd` and click "Command Prompt". If you are on Mac, click the Launchpad icon in the Dock, type `Terminal` and click "Terminal".
 ![CommandLineImage](README.assets/CommandLineImage.PNG)<br><br>
+**6. Ensure your command line / terminal is operational.**
+<br><br>To ensure that your command line is in correct order to execute the unit tests. You want to use certain commands to check if Git and .NET 8 is correctly installed. In your command line, type `git --version` and check if Git is installed. Then, type `dotnet --list-sdks` and check if .NET 8 is correctly installed. Your results should look similar to this:
+![CommandLineIsCorrect](README.assets/CommandLineIsCorrect.PNG)
 If you see your command line / terminal, you are now ready to execute your project and unit tests from your machine. You can follow my directions on how I ran this project's code below!
 
 ## Executing Unit Tests
