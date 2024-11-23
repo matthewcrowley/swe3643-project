@@ -146,7 +146,7 @@ You want to choose where you want to place your cloned repository. To direct to 
 Once you have directed to your chosen directory, use the `git clone` command followed by the URL of the repository. For example, my command for cloning this repository to my machine was `git clone https://github.com/matthewcrowley/swe3643-project.git`.
 ![CommandLineRepoCloned](README.assets/CommandLineRepoCloned.PNG) <br>
 <br>**5.	Navigate to the unit tests in the newly cloned repository.**<br><br>
-You want to navigate to the repository directory, into the source directory, then the Calculator directory, and then finally the CalculatorLogicUnitTests directory. To do this all at once, we are going to use one command, which is `cd swe3643-project/src/Calculator/CalculatorLogicUnitTests`.<br>
+You want to navigate to the repository directory, then into the source directory, then the Calculator directory, and then finally the CalculatorLogicUnitTests directory. To do this all at once, we are going to use one command, which is `cd swe3643-project/src/Calculator/CalculatorLogicUnitTests`.<br>
 ![NavigateToUnitTests](README.assets/NavigateToUnitTests.PNG) <br>
 <br>**6.	Execute the Unit Tests.**<br><br>
 Once in the unit tests directory, run the unit tests. The command for this is `dotnet test`.
@@ -179,4 +179,5 @@ In this project, I wrote a total of **24** unit tests to test the statistical fu
 ![TotalTestCoverage2](README.assets/UnitTestsTotalCoverage2.PNG)
 
 ## Final Video Presentation
-This final video presentation on YouTube is of me walking you through this repository along with executing my unit tests from the command line. Along with this, I also hop into my Rider IDE to show off my Calculator Logic and my Calculator Logic Unit Tests and their **100%** coverage! Check it out!
+This final video presentation on YouTube is of me walking you through this repository along with executing my unit tests from the command line. Along with this, I also hop into my Rider IDE to show off my Calculator Logic and my Calculator Logic Unit Tests and their **100%** coverage! Check it out! <br><br>
+[Click here to access the YouTube video!](https://youtu.be/427dhUZq8is?si=MewTH02KoR1Zo31Q)
